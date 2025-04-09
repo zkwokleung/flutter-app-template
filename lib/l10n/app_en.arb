@@ -1,0 +1,23 @@
+{
+    "@@locale": "en",
+    "homeTitle": "Home",
+    "@homeTitle": {},
+    "goToSettings": "Go to Settings",
+    "@goToSettings": {},
+    "settingsTitle": "Settings",
+    "@settingsTitle": {},
+    "darkMode": "Dark Mode",
+    "@darkMode": {},
+    "lightMode": "Light Mode",
+    "@lightMode": {},
+    "systemDefault": "System Default",
+    "@systemDefault": {},
+    "language": "Language",
+    "@language": {},
+    "english": "English",
+    "@english": {},
+    "chinese": "Chinese",
+    "@chinese": {},
+    "spanish": "Spanish",
+    "@spanish": {}
+}

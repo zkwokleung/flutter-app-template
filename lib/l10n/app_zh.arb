@@ -1,0 +1,23 @@
+{
+    "@@locale": "zh",
+    "homeTitle": "首頁",
+    "@homeTitle": {},
+    "goToSettings": "前往設定",
+    "@goToSettings": {},
+    "settingsTitle": "設定",
+    "@settingsTitle": {},
+    "darkMode": "深色模式",
+    "@darkMode": {},
+    "lightMode": "淺色模式",
+    "@lightMode": {},
+    "systemDefault": "系統預設",
+    "@systemDefault": {},
+    "language": "語言",
+    "@language": {},
+    "english": "英文",
+    "@english": {},
+    "chinese": "中文",
+    "@chinese": {},
+    "spanish": "西班牙文",
+    "@spanish": {}
+}
