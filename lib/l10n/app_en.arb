@@ -6,6 +6,8 @@
     "@goToSettings": {},
     "settingsTitle": "Settings",
     "@settingsTitle": {},
+    "appearance": "Appearance",
+    "@appearance": {},
     "darkMode": "Dark Mode",
     "@darkMode": {},
     "lightMode": "Light Mode",

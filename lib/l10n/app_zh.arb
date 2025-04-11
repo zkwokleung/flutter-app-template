@@ -6,6 +6,8 @@
     "@goToSettings": {},
     "settingsTitle": "設定",
     "@settingsTitle": {},
+    "appearance": "外觀",
+    "@appearance": {},
     "darkMode": "深色模式",
     "@darkMode": {},
     "lightMode": "淺色模式",
