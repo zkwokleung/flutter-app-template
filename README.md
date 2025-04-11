@@ -53,6 +53,31 @@ This generates `lib/firebase_options.dart`. Update your Firebase project setting
 flutter run
 ```
 
+## 🚀 How to Rename the App
+
+You can easily rename this template to your own project name using the script below.
+
+### Step 1: Make the setup script executable
+
+```bash
+chmod +x scripts/setup.sh
+```
+
+### Step 2: Run the script with your app name and package name
+```bash
+bash scripts/setup.sh "My Cool App" "com.mycompany.coolapp"
+```
+
+This will:
+- Rename the app's display name on Android & iOS
+- Change the Android/iOS package ID (e.g., `com.example.app`)
+
+### Manual Cleanup
+
+After renaming:
+- Restart your IDE
+- Run `flutter clean && flutter pub get`
+
 ## 🌐 Localization
 - Edit translations in `lib/l10n/*.arb`
 - Run:
