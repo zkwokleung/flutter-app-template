@@ -1,5 +1,5 @@
-import 'package:flutter_app_template/constants/app_radii.dart';
-import 'package:flutter_app_template/constants/app_spacing.dart';
+import 'package:flutter_app_template/core/constants/app_radii.dart';
+import 'package:flutter_app_template/core/constants/app_spacing.dart';
 import 'package:flutter_gen/gen_l10n/app_localizations.dart';
 import 'package:flutter/material.dart';
 import 'package:flutter_riverpod/flutter_riverpod.dart';

@@ -19,7 +19,6 @@ class LocalNotificationService {
       settings,
       onDidReceiveNotificationResponse: (response) {
         // Handle notification tap here
-        print('Notification tapped: ${response.payload}');
       },
     );
 
