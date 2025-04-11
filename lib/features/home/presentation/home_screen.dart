@@ -21,6 +21,14 @@ class HomeScreen extends ConsumerWidget {
               child: const Text('Go to Settings'),
             ),
             ElevatedButton(
+              onPressed: () => context.push('/login'),
+              child: const Text('Go to Login'),
+            ),
+            ElevatedButton(
+              onPressed: () => context.push('/signup'),
+              child: const Text('Go to Sign up'),
+            ),
+            ElevatedButton(
               onPressed: () {
                 final notification = ref.read(localNotificationServiceProvider);
                 notification.showNotification(

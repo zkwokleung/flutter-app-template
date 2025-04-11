@@ -21,5 +21,13 @@
     "chinese": "Chinese",
     "@chinese": {},
     "spanish": "Spanish",
-    "@spanish": {}
+    "@spanish": {},
+    "profileTitle": "Profile",
+    "@profileTitle": {},
+    "username": "Username",
+    "@username": {},
+    "email": "Email",
+    "@email": {},
+    "logout": "Logout",
+    "@logout": {}
 }

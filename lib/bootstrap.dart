@@ -7,6 +7,11 @@ Future<ProviderScope> createAppScope() async {
   final localNotificationService = LocalNotificationService();
   await localNotificationService.init();
 
+  // Uncomment the following lines if you want to initialize Firebase
+  // await Firebase.initializeApp(
+  //   options: DefaultFirebaseOptions.currentPlatform,
+  // );
+
   return ProviderScope(
     overrides: [
       localNotificationServiceProvider

@@ -16,7 +16,15 @@ class AppShell extends StatelessWidget {
     final tabs = [
       _TabItem(label: l10n.homeTitle, icon: Icons.home, route: '/'),
       _TabItem(
-          label: l10n.settingsTitle, icon: Icons.settings, route: '/settings'),
+        label: l10n.settingsTitle,
+        icon: Icons.settings,
+        route: '/settings',
+      ),
+      _TabItem(
+        label: l10n.profileTitle,
+        icon: Icons.person,
+        route: '/profile',
+      ),
     ];
 
     final currentIndex = tabs.indexWhere((tab) => location.endsWith(tab.route));
