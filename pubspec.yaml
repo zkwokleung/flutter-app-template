@@ -22,6 +22,8 @@ dependencies:
   build_runner: ^2.4.15
   intl_utils: ^2.8.10
   intl: any
+  flutter_local_notifications: ^19.0.0
+  timezone: ^0.10.0
 
 dev_dependencies:
   flutter_test:
