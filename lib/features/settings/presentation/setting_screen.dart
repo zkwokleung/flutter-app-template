@@ -11,10 +11,10 @@ class SettingsScreen extends ConsumerWidget {
 
   @override
   Widget build(BuildContext context, WidgetRef ref) {
-    final themeMode = ref.watch(themeModeProvider);
-    final themeNotifier = ref.read(themeModeProvider.notifier);
-    final localeNotifier = ref.read(localeProvider.notifier);
-    final locale = ref.watch(localeProvider);
+    final themeMode = ref.watch(themeModeNotifierProvider);
+    final themeModeNotifier = ref.read(themeModeNotifierProvider.notifier);
+    final localeNotifier = ref.read(localeNotifierProvider.notifier);
+    final locale = ref.watch(localeNotifierProvider);
     final l10n = AppLocalizations.of(context)!;
 
     return Scaffold(
@@ -49,13 +49,13 @@ class SettingsScreen extends ConsumerWidget {
               onPressed: (int index) {
                 switch (index) {
                   case 0:
-                    themeNotifier.setThemeMode(ThemeMode.light);
+                    themeModeNotifier.setThemeMode(ThemeMode.light);
                     break;
                   case 1:
-                    themeNotifier.setThemeMode(ThemeMode.dark);
+                    themeModeNotifier.setThemeMode(ThemeMode.dark);
                     break;
                   case 2:
-                    themeNotifier.setThemeMode(ThemeMode.system);
+                    themeModeNotifier.setThemeMode(ThemeMode.system);
                     break;
                 }
               },
