@@ -6,7 +6,7 @@ part of 'locale_provider.dart';
 // RiverpodGenerator
 // **************************************************************************
 
-String _$localeNotifierHash() => r'fa0835b6e8e03fec9f74d050b8893901db7b472e';
+String _$localeNotifierHash() => r'7aa1f6cd9b4211396a97835e2fd657ce27dce898';
 
 /// See also [LocaleNotifier].
 @ProviderFor(LocaleNotifier)
