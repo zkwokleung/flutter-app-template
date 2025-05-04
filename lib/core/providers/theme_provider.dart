@@ -10,7 +10,7 @@ class ThemeModeNotifier extends _$ThemeModeNotifier {
   @override
   ThemeMode build() {
     _load();
-    return state;
+    return ThemeMode.system;
   }
 
   Future<void> _load() async {

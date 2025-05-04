@@ -83,7 +83,7 @@ class SettingsScreen extends ConsumerWidget {
             padding: const EdgeInsets.symmetric(
                 horizontal: AppSpacing.lg, vertical: AppSpacing.sm),
             child: DropdownButtonFormField<Locale>(
-              value: locale ?? const Locale('en'),
+              value: locale,
               onChanged: (Locale? value) {
                 if (value != null) {
                   localeNotifier.setLocale(value);
