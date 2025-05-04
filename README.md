@@ -119,12 +119,6 @@ Wrapped screens use a global layout (`AppShell`) for bottom navigation.
 - Feature-wise test structure under `/test`
 - Unit, widget, and integration test samples
 
-## 📦 Recommended Add-ons
-- Drift or Hive for local DB
-- Secure storage for tokens
-- REST API + Dio + Repository pattern
-- App-wide error handling and loading states
-
 ## 🛠 Contribution Guide
 This template is built to be forked and extended. To add a new feature:
 1. Create a folder under `features/<new_feature>`
